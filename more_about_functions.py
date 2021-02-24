@@ -8,7 +8,7 @@ def some_function(x, y, z):
 output = some_function(5, 6, 7)
 # print(output)
 
-def greet_friend(name, greeting, sentence):
+def greet_friend(name, sentence, greeting="Hello"):
     output = "{2}, {0}! {1}".format(greeting, name, sentence)
     return(output)
 
