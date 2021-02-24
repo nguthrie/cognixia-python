@@ -3,8 +3,6 @@ list_of_numbers = [1, 2, 3, 4, 5, 6, 7, 8]
 
 list_of_name = ["Kwame", "Bisrat", "Jacob"]
 
-a, b* = list_of_name
-
 print(a)
 
 # a = list_of_numbers[2:5]
